@@ -3,10 +3,58 @@ header{
  background-size: cover;
  color: white;	
 }
+body {
+	background-image: url('background.jpg');
+	background-repeat: repeat-x;
+}
+.logo{
+	opacity: 1;
+}
 
+.navbar-brand img {
+	width: 200px;
+	height: auto;
+}
+#nav-item{
+	color: deepskyblue;
+}
+a{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	color: lightskyblue;
+	font-size: 3.5vh;
+}
+h1, h2 {
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	color: lightskyblue;
+	font-size: 5vh;
+}
+p {
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	color: lightskyblue;
+	font-size: 3vh;
+                                                
+}
+
+.card{
+	border-style: solid;
+	border-width: 3px;
+	border-color: #1701BD;
+	height: 100%;
+}
 .color-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
 	min-height: 60vh;
+}
+.card-img-top{
+	height: 100%;
+}
+.card-body{
+	background-color: #08003B;
+}
+.card-title{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	color: lightskyblue;
+	font-size: 5vh;
 }
 .sheet{
 	font-size: 12vw;
@@ -18,14 +66,15 @@ header{
 
 }
 .btn-outline-dark{
-	background-color: #C60000;
+	background-color: #1701BD;
+	color: deepskyblue;
 }
 .btn-outline-dark:hover{
-	background-color: #FF3939;
-	color: #FF6464;
+	background-color: #070138;
+	color: lightskyblue;
 }
 footer{
-	background-color: #3a3a3a;
+	background-color: #01497c;
 
 
 }
